@@ -10,7 +10,12 @@
     -   random 
     -   next song in the list
     -   repeat
+    
 
+## 
+>-   We can use a stack implemented by a doubly linked list.
+The list will be read from the file and each node will cointain a song and any other info that will be given (artist, song name, etc)
+>
 ## Select song and play
 
 -   We will add the list to the gui
@@ -39,8 +44,6 @@
 
 ## Choosing next song 
 
--   We can use a stack implemented by a doubly linked list.
-The list will be read from the file and each node will cointain a song and any other info that will be given (artist, song name, etc)
 
 ### Random
 
