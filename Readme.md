@@ -62,3 +62,25 @@ The list will be read from the file and each node will cointain a song and any o
 
 
 >We can use switch assigning each case to a gui button
+
+
+# Gui 
+
+-   create a frame [X]
+-   create button [X]
+-   allign correctly the buttons []
+-   add images to the buttons[]
+-   add text
+
+
+## Buttons
+
+-   play
+-   pause
+-   repeat
+-   next
+-   random
+
+## Text 
+
+-   searchbar
