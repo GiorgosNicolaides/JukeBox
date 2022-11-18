@@ -4,6 +4,7 @@
  */
 
 package java2assignment.jukebox;
+import java2assignment.GUI.*;
 
 /**
  *
@@ -12,5 +13,6 @@ public class JukeBox {
 
     public static void main(String[] args) {
         // System.out.println("Hello World!");
+        MyFrame frame = new MyFrame();
     }
 }
