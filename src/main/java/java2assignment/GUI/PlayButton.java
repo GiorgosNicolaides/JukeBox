@@ -2,15 +2,16 @@ package java2assignment.GUI;
 
 import java.awt.Color;
 
+import javax.swing.ImageIcon;
 import javax.swing.JButton;
 
-public class PlayButton extends JButton{
-    
+public class PlayButton extends JButton {
 
-    public PlayButton(){
-        this.setBackground(new Color( 255 , 255 , 255) );
-        this.setBounds(50, 50, 30, 30);
-        
+    ImageIcon img = new ImageIcon(getClass().getResource("play.png"));
+
+    public PlayButton() {
+        this.setBounds(210, 250, 50, 50);
+        this.setIcon(new javax.swing.ImageIcon(getClass().getResource("play.png")));
 
     }
 }
