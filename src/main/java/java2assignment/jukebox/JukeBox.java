@@ -5,15 +5,15 @@
 
 package java2assignment.jukebox;
 
-import java2assignment.GUI.*;
+import java2assignment.GUI.MyFrame;
 
-/**
+/**= new FileReader(null);
  *
  */
 public class JukeBox {
 
     public static void main(String[] args) {
-        // System.out.println("Hello World!");
-        MyFrame frame = new MyFrame();
+                new MyFrame();
+                
     }
 }
