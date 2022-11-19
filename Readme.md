@@ -84,3 +84,12 @@ The list will be read from the file and each node will cointain a song and any o
 ## Text 
 
 -   searchbar
+
+---
+
+## To do until Sunday 20/11
+
+-   Create a list that reads from a file mp3 or m3u files and writes them in the new list [ ] 
+    -   Reader Class
+    -   Write Class
+    -   Playlist Class
