@@ -28,6 +28,8 @@ public class MyFrame extends JFrame {
 
         // get the left panel
         Panel left = new Panel();
+        //create top panel
+        TopPanel top = new TopPanel();
         // TODO
         // add pay button
         play.setBounds(850, 880, 50, 50);
@@ -52,6 +54,7 @@ public class MyFrame extends JFrame {
 
         // Add componenents
         this.add(left);
+        this.add(top);
         this.add(play);
         this.add(pause);
         this.add(repeat);

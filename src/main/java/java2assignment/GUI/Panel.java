@@ -9,7 +9,7 @@ public class Panel extends JPanel {
      // create the left panel
      
      this.setBackground(Color.darkGray);// Color
-     this.setBounds(0, 0, 300, 1000);// set Bounds
+     this.setBounds(0, 50, 300, 1000);// set Bounds
     }
     
 }
