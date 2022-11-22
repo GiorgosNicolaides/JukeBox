@@ -1,16 +1,21 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Project/Maven2/JavaApp/src/main/java/${packagePath}/${mainClassName}.java to edit this template
- */
 
 package java2assignment.jukebox;
 
-/**
- *
- */
+import java.io.File;
+import java.util.Scanner;
+
+import java2assignment.Playlist.Create;
+
 public class JukeBox {
 
     public static void main(String[] args) {
-        // System.out.println("Hello World!");
+
+        Scanner in = new Scanner(System.in);
+        String s = in.nextLine();
+
+        File f = new File(s);
+        Create create = new Create();
+        create.createList(f);
     }
+
 }
