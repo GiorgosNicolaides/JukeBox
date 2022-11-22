@@ -17,6 +17,7 @@ public class JukeBox {
         Create create = new Create();
         create.createList(f);
         in.close();
+        System.out.println("khvsb");
     }
 
 }
