@@ -10,7 +10,7 @@ public class Create {
     private File directory;
     private File [] files;
     private ArrayList<File> songs;
-    private int songnumber;
+    private int songnumber = 0;
     private Timer timer ;
     private TimerTask task ;
     private boolean running ;
@@ -24,9 +24,14 @@ public class Create {
 
         if(files != null){
             for(File file : files){
+                String s = file.getName();
+                if(s.contains(".wav") || s.contains(".mp3")){
                 songs.add(file);
-                System.out.println(file);
+                songnumber++;
+                System.out.println(file );
             }
+            
         }
     }
+}
 }

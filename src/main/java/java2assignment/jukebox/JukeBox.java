@@ -16,6 +16,7 @@ public class JukeBox {
         File f = new File(s);
         Create create = new Create();
         create.createList(f);
+        in.close();
     }
 
 }
