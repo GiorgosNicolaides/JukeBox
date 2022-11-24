@@ -9,13 +9,12 @@ public class Create {
 
     private File directory;
     private File[] files;
-    private ArrayList<File> songs;
     private int songnumber=0;
     // private Timer timer ;
     // private TimerTask task ;
     // private boolean running ;
 
-    public void createList(File f) {
+    public void createList(File f , ArrayList<File> songs) {
 
         songs = new ArrayList<File>();
         directory = f;

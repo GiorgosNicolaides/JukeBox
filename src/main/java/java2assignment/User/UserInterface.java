@@ -1,12 +1,13 @@
 package java2assignment.User;
 
+import java.io.File;
 import java.io.InputStream;
 
 import com.goxr3plus.streamplayer.enums.Status;
 
 public interface UserInterface {
 
-    void play(InputStream i) throws PlayerException;
+    void play(File i) throws PlayerException;
 
     void startPlaying(InputStream i) throws PlayerException;
 
