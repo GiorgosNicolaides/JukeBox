@@ -1,16 +1,5 @@
-# What  i need 
+# 29/7
 
--   list with at least 5 mp3 songs [X]
-
-
-# What i have to do
-
--   play song []
--   stop song []
--   pause song []
--   loop []
--   next song []
--   order []
--   random [] 
-
-
+-   pom.xml update [X]
+-   Create PlayerException class [X]
+-   Learn how to read from ArrayList as InputStream [] 

@@ -6,32 +6,31 @@ import java.util.Timer;
 import java.util.TimerTask;
 
 public class Create {
-    
+
     private File directory;
-    private File [] files;
+    private File[] files;
     private ArrayList<File> songs;
-    private int songnumber = 0;
+    private int songnumber=0;
     // private Timer timer ;
     // private TimerTask task ;
     // private boolean running ;
 
-
-    public void createList(File f){
+    public void createList(File f) {
 
         songs = new ArrayList<File>();
         directory = f;
         files = directory.listFiles();
 
-        if(files != null){
-            for(File file : files){
+        if (files != null) {
+            for (File file : files) {
                 String s = file.getName();
-                if(s.endsWith(".wav") || s.endsWith(".mp3")){
-                songs.add(file);
-                songnumber++;
-                System.out.println(file );
+                if (s.endsWith(".wav") || s.endsWith(".mp3")) {
+                    songs.add(file);
+                    songnumber++;
+                    System.out.println(file);
+                }
+
             }
-            
         }
     }
-}
 }
