@@ -13,8 +13,8 @@ import java2assignment.User.User;
 public class JukeBox {
 
     public static void main(String[] args) throws PlayerException {
-    	System.out.println("gik");
-        Scanner in = new Scanner(System.in);
+    	
+    	Scanner in = new Scanner(System.in);
         String s = in.nextLine();
 
         File f = new File(s);
