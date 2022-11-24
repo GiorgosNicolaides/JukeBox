@@ -1,0 +1,86 @@
+
+Skip to content
+Pull requests
+Issues
+Codespaces
+Marketplace
+Explore
+@Panos994
+GiorgosNicolaides /
+JukeBox
+Private
+
+Code
+Issues
+Pull requests 1
+Discussions
+Actions
+Projects
+Wiki
+Security
+
+    Insights
+
+JukeBox/
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.mycompany</groupId>
+    <artifactId>JukeBox</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+        <exec.mainClass>com.mycompany.jukebox.JukeBox</exec.mainClass>
+    </properties>
+    <repositories>
+  <repository>
+    <id>gitlab-maven</id>
+    <url>https://gitlab.com/api/v4/projects/41008035/packages/maven</url>
+  </repository>
+</repositories>
+<dependencies>
+<dependency>
+  <groupId>gr.hua.dit.oop2</groupId>
+  <artifactId>musicplayer</artifactId>
+  <version>1.0.0</version>
+</dependency>
+</dependencies>
+
+<distributionManagement>
+  <repository>
+    <id>gitlab-maven</id>
+    <url>https://gitlab.com/api/v4/projects/41008035/packages/maven</url>
+  </repository>
+
+  <snapshotRepository>
+    <id>gitlab-maven</id>
+    <url>https://gitlab.com/api/v4/projects/41008035/packages/maven</url>
+  </snapshotRepository>
+</distributionManagement>
+</project>
+@Panos994
+Propose new file
+Commit summary
+Optional extended description
+You can’t commit to master because it is a protected branch.
+Create a new branch for this commit and start a pull request. Learn more about pull requests.
+Footer
+© 2022 GitHub, Inc.
+Footer navigation
+
+    Terms
+    Privacy
+    Security
+    Status
+    Docs
+    Contact GitHub
+    Pricing
+    API
+    Training
+    Blog
+    About
+
+
