@@ -13,7 +13,7 @@ import java2assignment.User.User;
 public class JukeBox {
 
     public static void main(String[] args) throws PlayerException {
-
+    	System.out.println("gik");
         Scanner in = new Scanner(System.in);
         String s = in.nextLine();
 
@@ -28,6 +28,7 @@ public class JukeBox {
         for(int i = 0 ; i < songs.size(); i++ ){
             u.play(songs.get(i));
         }
+        response = in.nextLine();
     }
         in.close();
         
