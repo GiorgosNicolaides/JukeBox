@@ -1,0 +1,48 @@
+Play 1 song
+
+
+//main 
+
+public class JukeBox1 {
+    
+   
+    
+   
+   
+   
+   public static void main(String[] args) {
+   
+     MusicPlayer mp3 = new MusicPlayer();
+     
+     
+     mp3.playSong();
+     
+     
+     }
+     
+ }
+ 
+ 
+ 
+ //MusicPlayerClass
+ 
+ 
+ public class MusicPlayer {
+    
+          
+     
+    public void playSong(){
+     Player p = PlayerFactory.getPlayer();
+    try {
+        
+    InputStream song = new FileInputStream("Trivium2.mp3");
+    p.play(song);
+    }catch (FileNotFoundException e) {
+    System.err.println("File Trivium2.mp3 not found");
+    } catch (PlayerException e) {
+    System.err.println("Something's wrong with the player: " + e.getMessage());
+    } finally {
+    if (p != null)
+    p.close();
+    }
+   
