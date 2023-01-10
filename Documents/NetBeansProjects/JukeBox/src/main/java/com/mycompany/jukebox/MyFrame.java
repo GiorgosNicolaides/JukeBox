@@ -209,6 +209,7 @@ public class MyFrame extends JFrame implements ActionListener {
             }catch (Exception ex){
                 ex.printStackTrace();
             }
+        
         }
             
         if (e.getSource() == stop){

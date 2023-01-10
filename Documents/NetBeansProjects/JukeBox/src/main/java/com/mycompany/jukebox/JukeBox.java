@@ -26,6 +26,7 @@ public class JukeBox {
     public static void main(String[] args) throws FileNotFoundException, IOException, PlayerException {
           
         MyFrame frame = new MyFrame();
+    
     }
 }
         
