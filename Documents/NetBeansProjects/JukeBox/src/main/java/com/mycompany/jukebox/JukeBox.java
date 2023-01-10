@@ -26,21 +26,6 @@ public class JukeBox {
     public static void main(String[] args) throws FileNotFoundException, IOException, PlayerException {
           
         MyFrame frame = new MyFrame();
-        /*Player player = PlayerFactory.getPlayer();
-        try{ 
-           InputStream input = new FileInputStream("C:/Users/agelo/Desktop/GUIMusicP/Ice & Fire - King Canyon.mp3");
-           player.startPlaying(input);
-           Thread.sleep(1000);
-           player.stop();
-           InputStream lastSong = new FileInputStream("C:/Users/agelo/Desktop/GUIMusicP/Oh Christmas Tree - DJ Williams.mp3");
-           player.startPlaying(lastSong);
-           
-        }catch (Exception ex){
-            ex.printStackTrace();
-        }*/
     }
-
-    
-
 }
         

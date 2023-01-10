@@ -30,8 +30,6 @@ import gr.hua.dit.oop2.musicplayer.PlayerListener;
 import gr.hua.dit.oop2.musicplayer.ProgressEvent;
 import gr.hua.dit.oop2.musicplayer.ProgressListener;
 import java.util.Random;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 import javax.sound.sampled.AudioFileFormat;
 import javazoom.spi.mpeg.sampled.file.MpegAudioFileFormat;
 import static org.jaudiotagger.audio.AudioFile.logger;
@@ -51,10 +49,9 @@ public class MyFrame extends JFrame implements ActionListener {
     JButton close;
     JButton random;
     
-    Thread thread = null;
+    
     
     JLabel label;
-    
     JList<String> List;
     File[] files;
     ArrayList <FileInputStream> Arraylist;
